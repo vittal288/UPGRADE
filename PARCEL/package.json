@@ -1,0 +1,21 @@
+{
+  "name": "PARCEL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel source/index.html",
+    "build":"parcel build source/index.html --out-dir prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.14.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2"
+  }
+}
